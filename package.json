@@ -63,7 +63,7 @@
     "whatwg-fetch": "^3.6.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env PORT=6006 react-scripts start",
     "start:cli": "cross-env BROWSER=none react-scripts start",
     "build": "react-scripts build --profile",
     "test": "is-ci-cli \"test:coverage\" \"test:watch\"",
